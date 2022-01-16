@@ -16,10 +16,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { AgGridModule } from 'ag-grid-angular';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { AuthGuard } from './gaurds/auth.guard';
+import { AuthGuard } from './guards/auth.guard';
 import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 import { MatSortModule } from '@angular/material/sort';
-import { ViewReportsGuard } from './gaurds/view-reports.guard';
+import { ViewReportsGuard } from './guards/view-reports.guard';
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
