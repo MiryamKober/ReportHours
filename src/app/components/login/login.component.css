@@ -1,0 +1,38 @@
+.container {
+    width: 50%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-group {
+    width: 70%;
+}
+.form-control {
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+button {
+    width: 60%;
+    /* width: 70%; */
+}
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:disabled,
+button[disabled] {
+    background-color: #17a2b8;
+    cursor: not-allowed;
+    opacity: 0.33;
+    pointer-events: all !important;
+}
